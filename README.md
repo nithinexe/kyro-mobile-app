@@ -1,32 +1,51 @@
-# Welcome to your Expo app 👋
+# E-Waste Recycling App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A React Native application for e-waste recycling management.
 
-## Get started
+## Getting Started
 
-1. Install dependencies
+### Prerequisites
 
+- Node.js
+- npm or yarn
+- Expo CLI
+- Android Studio (for Android development)
+- Xcode (for iOS development)
+
+### Installation
+
+1. Clone the repository
+2. Install dependencies:
    ```bash
    npm install
    ```
 
-2. Start the app
+### Running the App
 
-   ```bash
-   npx expo start
-   ```
+- For iOS:
+  ```bash
+  npm run ios
+  ```
 
-In the output, you'll find options to open the app in a
+- For Android:
+  ```bash
+  npm run android
+  ```
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+- For Web:
+  ```bash
+  npm run web
+  ```
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Features
 
-## Get a fresh project
+- User authentication
+- E-waste pickup requests
+- Location services
+- Order tracking
+- Payment integration
 
+## Tech Stack
 When you're ready, run:
 
 ```bash
